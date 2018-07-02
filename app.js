@@ -143,17 +143,17 @@ var hpnm092_img_sub;
 
 var hpnm092_preimg = new Array();
 hpnm092_preimg[0] = new Image();
-hpnm092_preimg[0].src = "http://www.hapinemu.net/fobp/bp092/ball1.gif";
+hpnm092_preimg[0].src = "https://www.hapinemu.net/fobp/bp092/ball1.gif";
 hpnm092_preimg[1] = new Image();
-hpnm092_preimg[1].src = "http://www.hapinemu.net/fobp/bp092/ball2.gif";
+hpnm092_preimg[1].src = "https://www.hapinemu.net/fobp/bp092/ball2.gif";
 
 var hpnm092_preimg_sub = new Array();
 hpnm092_preimg_sub[0] = new Image();
-hpnm092_preimg_sub[0].src = "http://www.hapinemu.net/fobp/bp092/subball1.gif";
+hpnm092_preimg_sub[0].src = "https://www.hapinemu.net/fobp/bp092/subball1.gif";
 hpnm092_preimg_sub[1] = new Image();
-hpnm092_preimg_sub[1].src = "http://www.hapinemu.net/fobp/bp092/subball1.gif";
+hpnm092_preimg_sub[1].src = "https://www.hapinemu.net/fobp/bp092/subball1.gif";
 hpnm092_preimg_sub[2] = new Image();
-hpnm092_preimg_sub[2].src = "http://www.hapinemu.net/fobp/bp092/subball1.gif";
+hpnm092_preimg_sub[2].src = "https://www.hapinemu.net/fobp/bp092/subball1.gif";
 
 var hpnm092_objBody = document.getElementsByTagName("body").item(0);
 var hpnm092_elem;
