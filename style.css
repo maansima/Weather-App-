@@ -1,0 +1,113 @@
+
+html{
+    background-color : salmon; 
+}
+
+#app{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; 
+    padding-top: 60px;
+    color: white;
+    text-shadow: 0 0 3px rgba(219, 69, 119, 0.808), 0 0 5px rgb(228, 91, 137);
+
+}
+
+
+h1 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+}
+.address{
+    padding-top: 20px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 20px; 
+
+}
+
+.city-weather{
+    padding-top: 20px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 20px; 
+
+}
+.wind-speed{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 20px; 
+
+}
+.visibility{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 20px; 
+
+}
+
+.forecastHigh{
+    padding-top: 30px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 15px; 
+
+}
+.forecastLow{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 15px; 
+
+}
+.credit{
+    position: relative;
+    font-size: 9px; 
+    top: 500px;
+    left: 1320px;
+    color: white;
+}
+
+ .skycons {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-align: center;
+}
+
+.type{
+    padding-top : 30px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 20px; 
+    text-shadow: 0 0 3px rgba(219, 69, 119, 0.808), 0 0 5px rgb(228, 91, 137);
+
+
+}
+
+button{
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 25px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-shadow: 0 0 3px rgba(219, 69, 119, 0.808), 0 0 5px rgb(228, 91, 137);
+
+    
+    
+}
+
+input{
+    font-size: 20px;
+    border-radius: 25px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    text-align: center;
+    padding : 3px;
+    background-color: salmon;
+    text-shadow: 0 0 3px rgba(219, 69, 119, 0.808), 0 0 5px rgb(228, 91, 137);
+    color: white;
+
+
+}
+
+canvas{
+    text-shadow: 0 0 3px rgba(219, 69, 119, 0.808), 0 0 5px rgb(228, 91, 137);
+}
