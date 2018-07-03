@@ -1,12 +1,12 @@
 
 
 (function () {
-  var DARKSKY_API_URL = 'http://api.darksky.net/forecast/';
+  var DARKSKY_API_URL = 'https://api.darksky.net/forecast/';
   var DARKSKY_API_KEY = '8a757f82430355eb0678585ea2a04537';
-  var CORS_PROXY = 'http://cors-anywhere.herokuapp.com/';
+  var CORS_PROXY = 'https://cors-anywhere.herokuapp.com/';
 
   var GOOGLE_MAPS_API_KEY = 'AIzaSyDElpH46RpY_dOhzaFtoV1mxYeb4_QZvSs';
-  var GOOGLE_MAPS_API_URL = 'http://maps.googleapis.com/maps/api/geocode/json';
+  var GOOGLE_MAPS_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
 
   function getCurrentWeather(coords) {
     var url = `${CORS_PROXY}${DARKSKY_API_URL}${DARKSKY_API_KEY}/${coords.lat},${coords.lng}`;
